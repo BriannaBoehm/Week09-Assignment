@@ -85,7 +85,7 @@ private int getUserSelection() {//takes in user selection
 	return Objects.isNull(input) ? -1 : input;
 }
 
-private Integer getIntInput(String prompt) {//converts string inputs to BigDecimal inputs 
+private Integer getIntInput(String prompt) {//converts string inputs to Integer inputs 
 	String input = getStringInput(prompt);
 	if(Objects.isNull(input)) {
 		return null;
